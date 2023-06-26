@@ -1,5 +1,5 @@
 class Student:
-    count =0
+    count =1
     def __init__(self):
         Student.count=Student.count+1
 s1= Student()
