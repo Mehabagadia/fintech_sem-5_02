@@ -4,7 +4,7 @@ class Student:
         self.name = name
         self.id = id
         self.age = age
-s = Student("meha" , 202 ,19)        
+s = Student("meha" , 201 ,19)        
 print(getattr(s,'name'))
 setattr(s ,"age",19)
 print(getattr(s, 'age'))
