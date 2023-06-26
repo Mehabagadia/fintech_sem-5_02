@@ -7,7 +7,7 @@ class Crow(Bird):
         print("crow cawing")
 class Chick(Crow):
     def eat(self):
-        print("chick eating something.....")
+        print("chick eating something..")
 p= Chick()
 p .eat()
 p. cawing()
